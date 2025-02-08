@@ -53,7 +53,7 @@ def submit_bandwidth(email, api_token, ip_info):
         "ip": ip_info.get("ip", ""),
     }
 
-    url = "https://app.blockmesh.xyz/api/report_uptime"
+    url = "https://app.blockmesh.xyz/api/get_token"
 
     try:
         response = requests.post(
