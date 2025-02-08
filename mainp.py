@@ -42,7 +42,7 @@ def submit_bandwidth(email, api_token, ip_info, proxy_config):
         "ip": ip_info.get("ip", ""),
     }
 
-    url = f"https://app.blockmesh.xyz/api/report_uptime"
+    url = f"https://app.blockmesh.xyz/api/get_token"
 
     try:
         response = requests.post(
