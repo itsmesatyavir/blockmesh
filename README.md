@@ -1,7 +1,7 @@
-git clone https://github.com/itsmesatyavir/blockmesh.git
+`git clone https://github.com/itsmesatyavir/blockmesh.git`
 
-cd blockmesh 
+`cd blockmesh`
 
-python blockmesh.py
+`python blockmesh.py`
 
 https://t.me/forestarmy 
